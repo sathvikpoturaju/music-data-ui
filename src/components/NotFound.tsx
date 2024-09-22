@@ -9,7 +9,7 @@ const NotFound: React.FC = (): JSX.Element => {
             </div>
 
             <div className="text-gray-500 underline cursor-pointer text-xl text-center">
-                <Link to='/'>
+                <Link to='/' replace={true}>
                     View Pianimation Profile
                 </Link>
             </div>
